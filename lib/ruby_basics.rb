@@ -10,8 +10,8 @@ def argue(x)
   x
 end
 
-def greeting(x, y)
-  
+def greeting(greeting, name)
+  puts "#{greeting}, #{name}."
 end
 
 def return_a_value
@@ -22,6 +22,6 @@ def last_evaluated_value
   "expert"
 end
 
-def pizza_party(x = "cheese")
-  x
+def pizza_party(type = "cheese")
+  type
 end
